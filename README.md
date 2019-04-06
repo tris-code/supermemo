@@ -5,7 +5,7 @@ SuperMemo2 method implemented in Swift
 ## Package.swift
 
 ```swift
-.package(url: "https://github.com/tris-foundation/supermemo.git", .branch("master"))
+.package(url: "https://github.com/tris-code/supermemo.git", .branch("master"))
 ```
 
 ## Memo
@@ -13,7 +13,7 @@ SuperMemo2 method implemented in Swift
 enum Response: Int {
     case blackout   // 0 - complete blackout.
     case incorrect  // 1 - incorrect response; the correct one remembered
-    case mistake    // 2 - incorrect response; the correct one seemed easy to recall  
+    case mistake    // 2 - incorrect response; the correct one seemed easy to recall
     case difficult  // 3 - correct response recalled with serious difficulty
     case hesitation // 4 - correct response after a hesitation
     case perfect    // 5 - perfect response

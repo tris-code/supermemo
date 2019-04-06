@@ -10,7 +10,7 @@ let package = Package(
     ],
     dependencies: [
         .package(
-            url: "https://github.com/tris-foundation/test.git",
+            url: "https://github.com/tris-code/test.git",
             .branch("master")),
     ],
     targets: [
