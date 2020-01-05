@@ -9,9 +9,7 @@ let package = Package(
             targets: ["SuperMemo"]),
     ],
     dependencies: [
-        .package(
-            url: "https://github.com/tris-code/test.git",
-            .branch("master")),
+        .package(path: "../Test"),
     ],
     targets: [
         .target(
