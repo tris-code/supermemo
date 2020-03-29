@@ -9,7 +9,7 @@ let package = Package(
             targets: ["SuperMemo"]),
     ],
     dependencies: [
-        .package(path: "../Test"),
+        .package(path: "../test"),
     ],
     targets: [
         .target(
